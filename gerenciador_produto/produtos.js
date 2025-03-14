@@ -22,7 +22,7 @@ function filtrar(){
 }
 
 function reduzir(){//tem varios propositos: somar todos os numeros, achar o maior elemento e outros
-    produtos.reduce((acc,{preco}) => acc + (preco), 0); //valor inicial sempre será zero
+    return produtos.reduce((acc,{preco}) => acc + (preco), 0); //valor inicial sempre será zero
     // acc é acumulador e curr o valor atual (preco nesse caso)
 }
 
